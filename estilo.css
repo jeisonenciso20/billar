@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* Importe la fuente "Poppins" desde Google Fonts para darle un estilo moderno al texto */
+
+/* Reset básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; /* Utilide un fondo oscuro para darle un toque elegante y moderno */
+    color: white; /* Texto en blanco para buen contraste */
+    font-family: 'Poppins', sans-serif; /* Aplique la fuente importada */
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header {
+    background: linear-gradient(135deg, #006d32, #004d26); /* Use un degradado verde para un efecto visual atractivo */
+    color: white;
+    display: flex; /* Alinea los elementos en línea */
+    align-items: center; /*  Para centra verticalmente */
+    justify-content: space-around; /* Es el espaciado alrededor de los contenidos */
+    padding: 20px;
+    border-radius: 20px; /* Bordes redondeados para un diseño más suave */
+    margin-bottom: 30px; /* Margenes */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5); /* La sombra es para dar sensación de profundidad */
+    border-style: groove; /* Margen de color blanco */
+}
+.texto-header {
+    max-width: 60%; /* Para evitar que el texto se extienda demasiado */
+}
+
+.imagen-header {
+    max-width: 35%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Asegura que se vea completa */
+    
+}
+
+header h1 {
+    font-size: 42px; /* tamaño de letra*/
+    font-weight: 700;
+    
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+img {
+    width: 200px;
+    height: auto; /* Es para mantener la proporción de las imagenes */
+    border-radius: 10px; /* Bordes redondeados para un look más amigable */
+    margin-top: 10px;  
+    border-style: groove;
+}
+
+
+nav {
+    background: #004d26; /* Un verde oscuro para la barra de navegación */
+    padding: 15px;
+    border-radius: 15px; /* Bordes suaves */
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Efecto de elevación */
+    border-style: groove;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffd700; /* Un dorado que resalta sobre el fondo oscuro */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #ffd700; /* Cambia el fondo a dorado al pasar el mouse */
+    color: #004d26; /* Cambio de color del texto para contraste */
+}
+
+/* SECCIONES */
+.Diseño-apartados {
+    background: #1a1a1a; /* Un gris oscuro para diferenciar las secciones */
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    text-align: left; /* Alineación de texto para mejorar la lectura */
+    
+}
+
+h2 {
+    color: #ffd700; /* Manteniendo la coherencia con el color dorado */
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-left: 5px solid white; /* Es la línea decorativa de la izquierda */
+    padding-left: 10px;
+}
+
+/* LISTAS */
+ul {
+    
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    list-style: none;
+}
+
+ul li {
+    background: #006d32; /* Verde para resaltar cada elemento de la lista */
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #ffd700; /* Efecto visual dorado al pasar el mouse */
+    color: #121212;
+}
+
+/* ENLACES */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+button {
+    background: #ffd700; /* Un botón dorado para que resalte */
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
